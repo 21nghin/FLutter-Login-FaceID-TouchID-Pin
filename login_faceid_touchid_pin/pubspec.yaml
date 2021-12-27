@@ -1,0 +1,29 @@
+name: login_faceid_touchid_pin
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+  local_auth: ^1.1.9
+  flutter_secure_storage: ^5.0.2 # cho phép chúng tôi có thể tìm nạp các giá trị an toàn trong khi ứng dụng chạy nền, bằng cách chỉ định first_unlock hoặc first_unlock_this_device.
+  passcode_screen: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+flutter:
+
+  uses-material-design: true
